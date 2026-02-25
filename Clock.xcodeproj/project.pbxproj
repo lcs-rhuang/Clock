@@ -13,6 +13,7 @@
 		7D2D74042F4CE3FE009018DE /* WorldClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2D74032F4CE3FE009018DE /* WorldClockView.swift */; };
 		7D2D74062F4CE41E009018DE /* AlarmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2D74052F4CE41E009018DE /* AlarmsView.swift */; };
 		7D2D74082F4CE42B009018DE /* StopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2D74072F4CE42B009018DE /* StopWatchView.swift */; };
+		7D2D740A2F4F5D9E009018DE /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2D74092F4F5D9E009018DE /* CityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		7D2D74032F4CE3FE009018DE /* WorldClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockView.swift; sourceTree = "<group>"; };
 		7D2D74052F4CE41E009018DE /* AlarmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmsView.swift; sourceTree = "<group>"; };
 		7D2D74072F4CE42B009018DE /* StopWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchView.swift; sourceTree = "<group>"; };
+		7D2D74092F4F5D9E009018DE /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			children = (
 				7D2D73FD2F4CE1DA009018DE /* LandingView.swift */,
 				7D2D74032F4CE3FE009018DE /* WorldClockView.swift */,
+				7D2D74092F4F5D9E009018DE /* CityView.swift */,
 				7D2D74052F4CE41E009018DE /* AlarmsView.swift */,
 				7D2D74072F4CE42B009018DE /* StopWatchView.swift */,
 			);
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D2D73FF2F4CE1DA009018DE /* ClockApp.swift in Sources */,
+				7D2D740A2F4F5D9E009018DE /* CityView.swift in Sources */,
 				7D2D74082F4CE42B009018DE /* StopWatchView.swift in Sources */,
 				7D2D74042F4CE3FE009018DE /* WorldClockView.swift in Sources */,
 				7D2D74062F4CE41E009018DE /* AlarmsView.swift in Sources */,

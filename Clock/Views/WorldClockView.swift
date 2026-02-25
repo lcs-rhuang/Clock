@@ -12,21 +12,19 @@ struct WorldClockView: View {
         NavigationStack {
             VStack {
                 //Ottowa
-                HStack{
-                    //left side
-                    VStack {
-                        Text("Today, +0HRS")
-                        Text("Ottowa")
-                            .font(.system(.largeTitle, design: .default, weight: .thin ))
-                    }
-                    Spacer()
-                    
-                    //right side
-                    Text("6:35")
-                        .font(.system(size: 64.0, weight: .thin, design: .default))
-                    Text("AM)")
-                        .font(.system(.largeTitle, design: .default, weight: .thin ))
-                }
+                CityView(timeZoneOffset: "+0", city: "Ottowa", time: "6:35", amOrPm: "am")
+                
+            
+                //Vancouver
+                CityView(timeZoneOffset: "-3", city: "Vancouver", time: "3:35", amOrPm: "am")
+                
+                //Hamburg
+                CityView(timeZoneOffset: "+6", city: "Hamburg", time: "12:35", amOrPm: "pm")
+                
+                //Sydney
+                CityView(timeZoneOffset: "+16", city: "Sydney", time: "10:35", amOrPm: "pm")
+                
+                //World Clock Title
                 
                 Text("World Clock")
             }
@@ -57,4 +55,8 @@ struct WorldClockView: View {
     #Preview {
         LandingView()
     }
+
+
+
+
 
